@@ -32,11 +32,11 @@ https://kookmin-sw.github.io/capstone-2023-03/
 --------
 
 > ### 타이틀 화면
-> ![타이틀 화면](/Docs/logic4.png)
+> ![타이틀 화면](/capstone-2023-03-master/Docs/logic4.png)
 > ### 맵 탐색
-> ![맵 탐색](/Docs/logic5.png)
+> ![맵 탐색](/capstone-2023-03-master/Docs/logic5.png)
 > ### 전투
-> ![전투](/Docs/logic3.png)
+> ![전투](/capstone-2023-03-master/Docs/logic3.png)
 
 기타
 ----
