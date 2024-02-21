@@ -27,19 +27,6 @@ https://kookmin-sw.github.io/capstone-2023-03/
 
 > [![Alternate Text](https://img.youtube.com/vi/NoJn_X90eIE/0.jpg)](https://www.youtube.com/watch?v=NoJn_X90eIE)
 
-팀 소개
-------
-
-> |이름|학번|역할|
-> |-|-|-|
-> |임준범(팀장)|****2010|맵, 일반 UI, 사운드, 데이터, 파일 관리|
-> |오현민|****1642|기획, 전투 시스템, 전투 UI|
-
-
-실행 방법
---------
-
-> Releases 탭에 배포되어 있는 압축 파일을 다운받아 Game.exe를 실행
 
 게임 로직
 --------
