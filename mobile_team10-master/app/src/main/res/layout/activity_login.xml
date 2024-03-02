@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/user_email" />
+
+    <EditText
+        android:id="@+id/etEmail_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="@string/input_email"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/user_pw" />
+
+    <EditText
+        android:id="@+id/etPassword_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:hint="@string/input_pw"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnLogin_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickLoginBtn"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/btnRegister_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickRegisterBtn"
+        android:text="@string/register" />
+
+</LinearLayout>

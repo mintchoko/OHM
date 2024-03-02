@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. 게임이 재미있었다면 승패에 신경쓰지 않는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_1">
+
+        <RadioButton
+            android:id="@+id/q_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+
+        <RadioButton
+            android:id="@+id/q_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="2. 게임이 질 것 같으면 빠르게 포기하는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_2">
+
+        <RadioButton
+            android:id="@+id/q_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3. 게임 시 본인에 맞는 장비나 게임 설정이 따로 있습니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_3">
+
+        <RadioButton
+            android:id="@+id/q_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="4. 처음 하는 캐릭터는 연습모드에서 미리 연습하는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_4">
+
+        <RadioButton
+            android:id="@+id/q_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="5. 자신과 팀의 티어에 신경을 쓰는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_5">
+
+        <RadioButton
+            android:id="@+id/q_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/next"
+            android:id="@+id/bt1_next"/>
+
+    </LinearLayout>
+</LinearLayout>

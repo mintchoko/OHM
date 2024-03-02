@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="메인"
+        android:id="@+id/item_main"/>
+    <item android:title="채팅"
+        android:id="@+id/item_friend"/>
+    <item android:title="사용자 정보"
+        android:id="@+id/item_info"/>
+</menu>

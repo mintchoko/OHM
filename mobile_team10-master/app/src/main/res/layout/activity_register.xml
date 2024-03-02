@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/user_email" />
+
+    <EditText
+        android:id="@+id/etEmail_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:layout_marginRight="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/input_email"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvEmail_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="@string/user_pw" />
+
+    <EditText
+        android:id="@+id/etPassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/input_pw"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/tvPassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/passwordCheckContainer_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/user_pw_check" />
+
+        <EditText
+            android:id="@+id/etPasswordCheck_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/input_pw_check"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvPasswordCheck_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnRegister_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickBtnRegister"
+        android:text="@string/register" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">team10</string>
+
+    <string name="ok">확인</string>
+    <string name="cancle">취소</string>
+
+    <string name="user_email">이메일</string>
+    <string name="user_pw">비밀번호</string>
+    <string name="user_pw_check">비밀번호 재입력</string>
+    <string name="user_name">닉네임</string>
+
+    <string name="input_email">이메일을 입력하세요.</string>
+    <string name="input_pw">비밀번호를 입력하세요.</string>
+    <string name="input_pw_check">비밀번호를 한번 더 입력하세요.</string>
+    <string name="input_name">사용할 닉네임을 입력하세요.</string>
+
+    <string name="input_message">메시지를 입력하세요.</string>
+    <string name="input_chatWith">채팅 상대의 이름을 입력하세요.</string>
+
+    <string name="login">로그인</string>
+    <string name="register">회원가입</string>
+
+    <string name="register_game_id">+ 유저 등록</string>
+    <string name="matching_friend">친구찾기</string>
+
+    <string name="send">보내기</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="back">이전</string>
+    <string name="next">다음</string>
+    <string name="res">결과 확인</string>
+
+    <string name="matching_re">다른 친구 찾기</string>
+    <string name="matching_result">소환사 님과 \n 가장 어울리는 친구로 추천해보았어요.</string>
+
+    <string name="game_lol">League of Legend</string>
+
+</resources>

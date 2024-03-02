@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/top_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/id_register_item" />
+
+        <Button
+            android:id="@+id/plus_id_register"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/register_game_id" />
+
+        <Button
+            android:id="@+id/matchingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/matching_friend" />
+
+
+<!--
+        <Button
+            android:id="@+id/friendBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/BtnUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원 정보" />
+        android:text="@string/register_game_id"/>
+-->
+    </LinearLayout>
+
+</LinearLayout>

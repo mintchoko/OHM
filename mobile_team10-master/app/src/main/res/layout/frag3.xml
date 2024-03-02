@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/text_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="11. 적이 피가 적으면 내 목숨이 위험해도 잡으러 가는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_11">
+
+        <RadioButton
+            android:id="@+id/q_11_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+
+        <RadioButton
+            android:id="@+id/q_11_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="12. 들어오는 공격을 받아치는 것을 선호하는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_12">
+
+        <RadioButton
+            android:id="@+id/q_12_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_12_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="13. 방어형 아이템보다 공격형 아이템을 선호하는 편입니까?"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:id="@+id/question_13">
+
+        <RadioButton
+            android:id="@+id/q_13_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/yes"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/q_13_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="@string/no"
+            android:textAlignment="center"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/back"
+            android:id="@+id/bt3_back"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/res"
+            android:id="@+id/bt_re"/>
+
+    </LinearLayout>
+</LinearLayout>
