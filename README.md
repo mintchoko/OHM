@@ -1,5 +1,5 @@
 # OHM
-capstone-2023-03-master -> 덱빌딩 로그라이크 카드게임 '아이리스' 프로젝트 소스코드
+capstone-2023-03-master -> 덱빌딩 로그라이크 카드게임 '아이리스' 프로젝트 소스코드 (Battle, CardEffect, Draggable, DropZoen, EnemyPattern, AllenemyData, BattleData, EnemyData, BattleUI, BattleWinUI, EnemyStatUI, HealthBarUI 등 전반적인 전투 관력 기능 및 UI 제작)
 
 game_software_team6-main -> 3D 포트리스 게임 '좀비와해골' 프로젝트 소스코드(UI Script 및 Throw 함수의 아이템 기능 제작)
 
